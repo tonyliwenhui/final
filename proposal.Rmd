@@ -1,0 +1,24 @@
+---
+title: "proposal"
+author: "wenhui li"
+date: "11/3/2021"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+### 1.The name of team members: Wenhui Li
+### 2.The link to the data source: http://www.planecrashinfo.com/database.htm
+### 3.Overview of dataset: 
+This database recorded all kinds of plane crash accidents worldwide from 1920 up to now. It's a database on the website which need to be scraped. In each record, specific information such as date, time, airline operator, flight number, aircraft type, total fatalities aboard, and total killed on the ground are included.
+
+### 4.What questions can be answered from the dataset?
+Analyzing aircraft accident data is useful for people, after all, no one wants a disaster to happen. Questions blew can be answered from the data.(More questions may add in final)
+
+- What time was the most common air crash in the past ten years？(avoid flying in this time period)
+
+- What are the most frequent aircraft models in air crashes? (Avoid buying tickets for this type of airplane)
+
+- What location and airline company with the most accidents? (Be careful when traveling to the location)
